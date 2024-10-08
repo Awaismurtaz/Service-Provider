@@ -27,6 +27,8 @@ body {
 .navHeader {
   background-color: var(--orange);
   padding: 10px 0px;
+  position: relative;
+  z-index: 1;
 }
 .navHeader .social_icons ul {
   display: flex;
@@ -58,6 +60,7 @@ body {
 .custom_navbar .navbar {
   background: linear-gradient(180deg, var(--black22) 0%, rgba(0, 0, 0, 0) 100%);
   padding: 10px 0px;
+  z-index: 1;
 }
 .custom_navbar .navbar .navbar_nav_items .nav-item {
   padding: 10px 15px;
@@ -85,7 +88,6 @@ body {
 }
 .custom_navbar .background_video_Box {
   position: relative;
-  z-index: -1;
   width: 100%;
   margin-top: -10%;
 }

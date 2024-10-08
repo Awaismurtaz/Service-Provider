@@ -28,6 +28,8 @@ body {
 .navHeader {
     background-color: var(--orange);
     padding: 10px 0px;
+    position: relative;
+    z-index: 1;
 
     .social_icons {
         ul {
@@ -69,6 +71,7 @@ body {
     .navbar {
         background: linear-gradient(180deg, var(--black22) 0%, #00000000 100%);
         padding: 10px 0px;
+        z-index: 1;
 
         .navbar_nav_items {
             .nav-item {
@@ -109,7 +112,6 @@ body {
 
     .background_video_Box {
         position: relative;
-        z-index: -1;
         width: 100%;
         margin-top: -10%;
 
